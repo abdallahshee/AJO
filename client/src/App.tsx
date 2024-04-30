@@ -1,10 +1,14 @@
 
 import './App.css'
+import Navbar from './components/Navbar'
+import MainCarousel from './components/MainCarousel'
 
 function App() {
   return (
       <div>
-        <h2>Welcome Now Test</h2>
+        <Navbar/>
+        {/* <h2 className='bg-danger'>Welcome Now Test</h2> */}
+        <MainCarousel/>
       </div>
   )
 }
